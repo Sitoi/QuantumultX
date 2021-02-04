@@ -4,7 +4,7 @@
   "description": "该订阅兼容 BoxJs 以及 QX Gallery",
   "author": "@Sitoi",
   "icon": "https://cdn.jsdelivr.net/gh/Sitoi/Sitoi.github.io/medias/avatars/avatar.jpg",
-  "repo": "https://github.com/Sitoi/QuantumultX/tree/master",
+  "repo": "https://github.com/Sitoi/QuantumultX",
   "apps": [
     {
       "id": "iqiyi",
