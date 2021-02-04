@@ -64,6 +64,9 @@
     {
       "id": "AcFun",
       "name": "AcFun",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/README.md\">文档</a></h4>"
+      ],
       "keys": [
         "chavy_cookie_acfun",
         "chavy_token_acfun"
@@ -79,6 +82,9 @@
     {
       "id": "NeteaseMusic",
       "name": "网易云音乐",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/README.md\">文档</a></h4>"
+      ],
       "keys": [
         "chavy_cookie_neteasemusic"
       ],
@@ -109,6 +115,9 @@
     {
       "id": "sfexpress",
       "name": "顺丰速运",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/README.md\">文档</a></h4>"
+      ],
       "keys": [
         "chavy_loginurl_sfexpress",
         "chavy_loginheader_sfexpress"
@@ -124,6 +133,9 @@
     {
       "id": "smzdm",
       "name": "什么值得买",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/README.md\">文档</a></h4>"
+      ],
       "keys": [
         "chavy_cookie_smzdm"
       ],
@@ -159,7 +171,10 @@
     },
     {
       "id": "BAIDU",
-      "name": "百度签到",
+      "name": "贴吧签到",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/README.md\">文档</a></h4>"
+      ],
       "keys": [
         "chavy_cookie_tieba"
       ],
@@ -204,6 +219,9 @@
     {
       "id": "10010",
       "name": "10010",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/chavyleung/scripts/master/10010/README.md\">文档</a></h4>"
+      ],
       "keys": [
         "chavy_tokenurl_10010",
         "chavy_tokenheader_10010",
@@ -241,6 +259,9 @@
     {
       "id": "qmkg",
       "name": "全民K歌",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/README.md\">文档</a></h4>"
+      ],
       "keys": [
         "senku_signurl_qmkg",
         "senku_signheader_qmkg",
@@ -286,13 +307,13 @@
       "config": "10 2 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云音乐 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
     },
     {
-      "config": "0 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag= 顺丰速运 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+      "config": "0 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag=顺丰速运 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
     },
     {
       "config": "10 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js, tag=什么值得买 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
     },
     {
-      "config": "10 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度签到(网页) ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+      "config": "10 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=贴吧签到 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
     },
     {
       "config": "0 5 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
