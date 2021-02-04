@@ -43,6 +43,9 @@
     {
       "id": "videoqq",
       "name": "腾讯视频",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/README.md\">文档</a></h4>"
+      ],
       "keys": [
         "chavy_cookie_videoqq",
         "chavy_auth_url_videoqq",
@@ -57,6 +60,216 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/videoqq.png",
         "https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png"
       ]
+    },
+    {
+      "id": "AcFun",
+      "name": "AcFun",
+      "keys": [
+        "chavy_cookie_acfun",
+        "chavy_token_acfun"
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/acfun",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/acfun.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/acfun.png"
+      ]
+    },
+    {
+      "id": "NeteaseMusic",
+      "name": "网易云音乐",
+      "keys": [
+        "chavy_cookie_neteasemusic"
+      ],
+      "settings": [
+        {
+          "id": "CFG_neteasemusic_retryCnt",
+          "name": "重试次数",
+          "val": 10,
+          "type": "text",
+          "desc": "一直尝试签到直至出现“重复签到”标识!"
+        },
+        {
+          "id": "CFG_neteasemusic_retryInterval",
+          "name": "重试间隔 (毫秒)",
+          "val": 500,
+          "type": "text",
+          "desc": "每次重试间隔时间 (毫秒)！"
+        }
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/neteasemusic",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/neteasemusic.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/neteasemusic.png"
+      ]
+    },
+    {
+      "id": "sfexpress",
+      "name": "顺丰速运",
+      "keys": [
+        "chavy_loginurl_sfexpress",
+        "chavy_loginheader_sfexpress"
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/sfexpress",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/sfexpress.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/sfexpress.png"
+      ]
+    },
+    {
+      "id": "smzdm",
+      "name": "什么值得买",
+      "keys": [
+        "chavy_cookie_smzdm"
+      ],
+      "settings": [
+        {
+          "id": "chavy_accounts_smzdm",
+          "name": "大妈账号",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "账号,密码 (回车) 账号,密码",
+          "autoGrow": true,
+          "rows": 5,
+          "desc": "以英文逗号分隔账号与密码, 回车添加多个账号"
+        },
+        {
+          "id": "chavy_tokens_smzdm",
+          "name": "令牌缓存 (自动生成, 无须手填)",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "正常情况下, 你无须修本字段的内容",
+          "autoGrow": true,
+          "rows": 5,
+          "desc": "本字段的值由脚本自动生成, 无须手动编辑, 如需清除令牌缓存, 可直接删除本字段的值。"
+        }
+      ],
+      "author": "@wangfei021325, @chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/smzdm",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/smzdm.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/smzdm.png"
+      ]
+    },
+    {
+      "id": "BAIDU",
+      "name": "百度签到",
+      "keys": [
+        "chavy_cookie_tieba"
+      ],
+      "settings": [
+        {
+          "id": "CFG_tieba_isOrderBars",
+          "name": "按连签排序",
+          "val": false,
+          "type": "boolean",
+          "desc": "默认按经验排序"
+        },
+        {
+          "id": "CFG_tieba_maxShowBars",
+          "name": "每页显示数",
+          "val": 15,
+          "type": "number",
+          "desc": "每页最显示多少个吧信息"
+        },
+        {
+          "id": "CFG_tieba_maxSignBars",
+          "name": "每次并发",
+          "val": 5,
+          "type": "number",
+          "desc": "每次并发签到多少个吧"
+        },
+        {
+          "id": "CFG_tieba_signWaitTime",
+          "name": "并发间隔 (毫秒)",
+          "val": 2000,
+          "type": "number",
+          "desc": "每次并发间隔时间"
+        }
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/tieba",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/baidu.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/baidu.png"
+      ]
+    },
+    {
+      "id": "10010",
+      "name": "10010",
+      "keys": [
+        "chavy_tokenurl_10010",
+        "chavy_tokenheader_10010",
+        "chavy_signurl_10010",
+        "chavy_signheader_10010",
+        "chavy_loginlotteryurl_10010",
+        "chavy_loginlotteryheader_10010",
+        "chavy_findlotteryurl_10010",
+        "chavy_findlotteryheader_10010"
+      ],
+      "settings": [
+        {
+          "id": "chavy_golottery_10010",
+          "name": "天天抽奖",
+          "val": true,
+          "type": "boolean",
+          "desc": "天天抽奖开关"
+        },
+        {
+          "id": "chavy_gosign_10010",
+          "name": "签到",
+          "val": true,
+          "type": "boolean",
+          "desc": "签到开关"
+        }
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/10010",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/10010.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/10010.png"
+      ]
+    },
+    {
+      "id": "qmkg",
+      "name": "全民K歌",
+      "keys": [
+        "senku_signurl_qmkg",
+        "senku_signheader_qmkg",
+        "senku_signbody_qmkg"
+      ],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/qmkg",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/qmkg.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/qmkg.png"
+      ]
+    },
+    {
+      "id": "52poje",
+      "name": "吾爱破解",
+      "keys": [
+        "CookieWA"
+      ],
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js\">脚本注释</a></h4>"
+      ],
+      "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js",
+      "author": "@NobyDa",
+      "repo": "https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/52pj.png"
+      ]
     }
   ],
   "task": [
@@ -64,7 +277,34 @@
       "config": "5 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png"
     },
     {
-      "config": "30 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+      "config": "30 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png"
+    },
+    {
+      "config": "31 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, tag=哔哩哔哩 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+    },
+    {
+      "config": "0 1 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js, tag=AcFun ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+    },
+    {
+      "config": "10 2 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云音乐 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+    },
+    {
+      "config": "0 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag= 顺丰速运 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+    },
+    {
+      "config": "10 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js, tag=什么值得买 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+    },
+    {
+      "config": "10 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度签到(网页) ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+    },
+    {
+      "config": "0 5 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+    },
+    {
+      "config": "40 6 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.js, tag=全民K歌 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
+    },
+    {
+      "config": "30 1 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
     }
   ]
 }
