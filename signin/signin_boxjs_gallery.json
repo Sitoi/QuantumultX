@@ -1,6 +1,6 @@
 {
   "id": "Sitoi.app.sub",
-  "name": "Sitoi 脚本订阅",
+  "name": "Sitoi 签到订阅",
   "description": "该订阅兼容 BoxJs 以及 QX Gallery",
   "author": "@Sitoi",
   "icon": "https://cdn.jsdelivr.net/gh/Sitoi/Sitoi.github.io/medias/avatars/avatar.jpg",
