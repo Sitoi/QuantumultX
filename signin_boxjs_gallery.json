@@ -39,12 +39,32 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/iQIYI.png",
         "https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png"
       ]
+    },
+    {
+      "id": "videoqq",
+      "name": "腾讯视频",
+      "keys": [
+        "chavy_cookie_videoqq",
+        "chavy_auth_url_videoqq",
+        "chavy_auth_header_videoqq",
+        "chavy_msign_url_videoqq",
+        "chavy_msign_header_videoqq"
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/videoqq",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/videoqq.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png"
+      ]
     }
   ],
   "task": [
     {
-      "config": "5 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png",
-      "addons": "https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Cookie.conf, tag=NobyDa Cookie获取"
+      "config": "5 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png"
+    },
+    {
+      "config": "30 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png"
     }
   ]
 }
