@@ -13,7 +13,9 @@
         "CookieQY"
       ],
       "descs_html": [
-        "打开爱奇艺App后(AppStore中国区)，点击\"我的\", 如通知成功获取cookie, 则可以使用此签到脚本.\n获取Cookie后, 请将Cookie脚本禁用并移除主机名，以免产生不必要的MITM.\n脚本将在每天上午9:00执行, 您可以修改执行时间。"
+        "获取 Cookie 教程",
+        "打开爱奇艺App后(AppStore中国区)，点击《我的》",
+        "如通知成功获取cookie, 则可以使用此签到脚本"
       ],
       "settings": [
         {
