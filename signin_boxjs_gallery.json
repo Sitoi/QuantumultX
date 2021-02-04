@@ -309,6 +309,29 @@
         "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/famijia.png",
         "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/famijia.png"
       ]
+    },
+    {
+      "id": "didi",
+      "name": "滴滴出行",
+      "keys": [
+        "didiTokenKey",
+        "didiCityIdKey",
+        "didiLotteryKey",
+        "didiMySourceIdKey",
+        "didiGroupIdKey",
+        "didiFinanceChannelIdKey",
+        "didiFinanceActivityIdKey"
+      ],
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/README.md\">脚本注释</a></h4>"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js",
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didichuxing",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png"
+      ]
     }
   ],
   "task": [
@@ -344,6 +367,9 @@
     },
     {
       "config": "18 5 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js, tag=Fa米家, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/famijia.png"
+    },
+    {
+      "config": "00 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png"
     }
   ]
 }
