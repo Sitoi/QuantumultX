@@ -313,6 +313,9 @@
     {
       "id": "didi",
       "name": "滴滴出行",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/README.md\">脚本注释</a></h4>"
+      ],
       "keys": [
         "didiTokenKey",
         "didiCityIdKey",
@@ -322,15 +325,81 @@
         "didiFinanceChannelIdKey",
         "didiFinanceActivityIdKey"
       ],
-      "descs_html": [
-        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/README.md\">脚本注释</a></h4>"
-      ],
       "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js",
       "author": "@blackmatrix7",
       "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didichuxing",
       "icons": [
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png",
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png"
+      ]
+    },
+    {
+      "id": "NoteYoudao",
+      "name": "有道云笔记",
+      "descs_html": [
+        ""
+      ],
+      "keys": [
+        "chavy_signurl_noteyoudao",
+        "chavy_signbody_noteyoudao",
+        "chavy_signheaders_noteyoudao"
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/noteyoudao",
+      "url": "https://apps.apple.com/cn/app/有道云笔记-扫描王版/id450748070",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/noteyoudao.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/noteyoudao.png"
+      ],
+      "tasks": [
+        {
+          "cron": "3 0 * * *",
+          "script": "noteyoudao.js"
+        }
+      ],
+      "rewrites": [
+        {
+          "type": "request",
+          "pattern": "^https://note.youdao.com/yws/mapi/user?method=checkin",
+          "script": "noteyoudao.cookie.js",
+          "body": true
+        }
+      ]
+    },
+    {
+      "id": "V2EX",
+      "name": "V2EX",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/README.md\">脚本注释</a></h4>"
+      ],
+      "keys": [
+        "chavy_cookie_v2ex"
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/v2ex",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/v2ex.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/v2ex.png"
+      ]
+    },
+    {
+      "id": "WPS",
+      "name": "WPS",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/chavyleung/scripts/master/wps/README.md\">脚本注释</a></h4>"
+      ],
+      "keys": [
+        "chavy_signhomeurl_wps",
+        "chavy_signhomeheader_wps"
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/wps",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/wps.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/wps.png"
       ]
     }
   ],
@@ -370,6 +439,15 @@
     },
     {
       "config": "00 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png"
+    },
+    {
+      "config": "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.js, tag=有道云笔记, img-url=https://raw.githubusercontent.com/Orz-3/task/master/noteyoudao.png"
+    },
+    {
+      "config": "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/Orz-3/task/master/v2ex.png"
+    },
+    {
+      "config": "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, tag=WPS, img-url=https://raw.githubusercontent.com/Orz-3/task/master/wps.png"
     }
   ]
 }
