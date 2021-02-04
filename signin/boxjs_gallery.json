@@ -7,7 +7,7 @@
   "repo": "https://github.com/Sitoi/QuantumultX/tree/master",
   "apps": [
     {
-      "id": "iQIYI",
+      "id": "iqiyi",
       "name": "爱奇艺",
       "keys": [
         "CookieQY"
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "id": "NeteaseMusic",
+      "id": "music163",
       "name": "网易云音乐",
       "descs_html": [
         "【获取 Cookie 教程】",
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "id": "BAIDU",
+      "id": "tieba",
       "name": "贴吧签到",
       "descs_html": [
         "【获取 Cookie 教程】",
@@ -306,7 +306,7 @@
     },
     {
       "id": "10010",
-      "name": "10010",
+      "name": "联通营业厅",
       "descs_html": [
         "【获取 Cookie 教程】",
         "1. 打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`",
