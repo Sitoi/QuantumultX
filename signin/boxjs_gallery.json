@@ -1,5 +1,5 @@
 {
-  "id": "Sitoi.app.sub",
+  "id": "Sitoi.sign.sub",
   "name": "Sitoi 签到订阅",
   "description": "该订阅兼容 BoxJs 以及 QX Gallery",
   "author": "@Sitoi",
@@ -40,6 +40,72 @@
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/iQIYI.png",
         "https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png"
+      ]
+    },
+    {
+      "id": "52poje",
+      "name": "吾爱破解",
+      "keys": [
+        "CookieWA"
+      ],
+      "descs_html": [
+        "【获取 Cookie 教程】",
+        "1. 浏览器打开 https://www.52pojie.cn/home.php"
+      ],
+      "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js",
+      "author": "@NobyDa",
+      "repo": "https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/52pj.png"
+      ]
+    },
+    {
+      "id": "famijia",
+      "name": "Fa米家",
+      "keys": [
+        "famijiaCookieKey",
+        "famijiaDeviceIdKey"
+      ],
+      "descs_html": [
+        "【获取 Cookie 教程】",
+        "1. Fa米家APP - 我的 - (滚动到底部)常用服务 -  签到"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js",
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/famijia",
+      "icons": [
+        "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/famijia.png",
+        "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/famijia.png"
+      ]
+    },
+    {
+      "id": "didi",
+      "name": "滴滴出行",
+      "descs_html": [
+        "【获取 Cookie】",
+        "1. 重新进入一次滴滴出行APP，即可获取Cookie。",
+        "【获取 lid】",
+        "1. 抽奖需要获取lid，获取路径为滴滴左上角-钱包-我的钱包-福利金。",
+        "【获取 ActivityId】",
+        "1. 天天有奖，首次使用需要手动签到一次获取ActivityId和ChannelId，不获取会尝试使用内置的ActivityId和ChannelId。",
+        "2. 获取路径：滴滴出行 - 左侧菜单 - 钱包。"
+      ],
+      "keys": [
+        "didiTokenKey",
+        "didiCityIdKey",
+        "didiLotteryKey",
+        "didiMySourceIdKey",
+        "didiGroupIdKey",
+        "didiFinanceChannelIdKey",
+        "didiFinanceActivityIdKey"
+      ],
+      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js",
+      "author": "@blackmatrix7",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didichuxing",
+      "icons": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png"
       ]
     },
     {
@@ -303,72 +369,6 @@
       ]
     },
     {
-      "id": "52poje",
-      "name": "吾爱破解",
-      "keys": [
-        "CookieWA"
-      ],
-      "descs_html": [
-        "【获取 Cookie 教程】",
-        "1. 浏览器打开 https://www.52pojie.cn/home.php"
-      ],
-      "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js",
-      "author": "@NobyDa",
-      "repo": "https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png",
-        "https://raw.githubusercontent.com/Orz-3/task/master/52pj.png"
-      ]
-    },
-    {
-      "id": "famijia",
-      "name": "Fa米家",
-      "keys": [
-        "famijiaCookieKey",
-        "famijiaDeviceIdKey"
-      ],
-      "descs_html": [
-        "【获取 Cookie 教程】",
-        "1. Fa米家APP - 我的 - (滚动到底部)常用服务 -  签到"
-      ],
-      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js",
-      "author": "@blackmatrix7",
-      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/famijia",
-      "icons": [
-        "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/famijia.png",
-        "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/famijia.png"
-      ]
-    },
-    {
-      "id": "didi",
-      "name": "滴滴出行",
-      "descs_html": [
-        "【获取 Cookie】",
-        "1. 重新进入一次滴滴出行APP，即可获取Cookie。",
-        "【获取 lid】",
-        "1. 抽奖需要获取lid，获取路径为滴滴左上角-钱包-我的钱包-福利金。",
-        "【获取 ActivityId】",
-        "1. 天天有奖，首次使用需要手动签到一次获取ActivityId和ChannelId，不获取会尝试使用内置的ActivityId和ChannelId。",
-        "2. 获取路径：滴滴出行 - 左侧菜单 - 钱包。"
-      ],
-      "keys": [
-        "didiTokenKey",
-        "didiCityIdKey",
-        "didiLotteryKey",
-        "didiMySourceIdKey",
-        "didiGroupIdKey",
-        "didiFinanceChannelIdKey",
-        "didiFinanceActivityIdKey"
-      ],
-      "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js",
-      "author": "@blackmatrix7",
-      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/didichuxing",
-      "icons": [
-        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png",
-        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png"
-      ]
-    },
-    {
       "id": "NoteYoudao",
       "name": "有道云笔记",
       "descs_html": [
@@ -444,50 +444,20 @@
     }
   ],
   "task": [
-    {
-      "config": "5 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png"
-    },
-    {
-      "config": "30 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png"
-    },
-    {
-      "config": "0 1 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js, tag=AcFun ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/acfun.png"
-    },
-    {
-      "config": "10 2 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云音乐 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/neteasemusic.png"
-    },
-    {
-      "config": "0 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag=顺丰速运 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/sfexpress.png"
-    },
-    {
-      "config": "10 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js, tag=什么值得买 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/smzdm.png"
-    },
-    {
-      "config": "10 3 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=贴吧签到 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/baidu.png"
-    },
-    {
-      "config": "0 5 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png"
-    },
-    {
-      "config": "40 6 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.js, tag=全民K歌 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/qmkg.png"
-    },
-    {
-      "config": "30 1 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/52pj.png"
-    },
-    {
-      "config": "18 5 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js, tag=Fa米家, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/famijia.png"
-    },
-    {
-      "config": "00 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png"
-    },
-    {
-      "config": "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.js, tag=有道云笔记, img-url=https://raw.githubusercontent.com/Orz-3/task/master/noteyoudao.png"
-    },
-    {
-      "config": "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/Orz-3/task/master/v2ex.png"
-    },
-    {
-      "config": "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, tag=WPS, img-url=https://raw.githubusercontent.com/Orz-3/task/master/wps.png"
-    }
+    "0 10 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png",
+    "0 11 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/52pj.png",
+    "0 12 8 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js, tag=Fa米家, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/famijia.png",
+    "0 13 8 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi.png",
+    "0 14 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png",
+    "0 15 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js, tag=AcFun ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/acfun.png",
+    "0 16 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云音乐 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/neteasemusic.png",
+    "0 17 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag=顺丰速运 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/sfexpress.png",
+    "0 18 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js, tag=什么值得买 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/smzdm.png",
+    "0 19 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=贴吧签到 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/baidu.png",
+    "0 20 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png",
+    "0 21 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.js, tag=全民K歌 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/qmkg.png",
+    "0 22 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.js, tag=有道云笔记, img-url=https://raw.githubusercontent.com/Orz-3/task/master/noteyoudao.png",
+    "0 23 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, img-url=https://raw.githubusercontent.com/Orz-3/task/master/v2ex.png",
+    "0 24 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, tag=WPS, img-url=https://raw.githubusercontent.com/Orz-3/task/master/wps.png"
   ]
 }
